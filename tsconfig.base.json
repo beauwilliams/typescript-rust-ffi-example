@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@typescript-rust-ffi-example/backend-ffi/backend-ffi": [
+        "libs/backend-ffi/backend-ffi/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "backend-ffi-backend-ffi": "libs/backend-ffi/backend-ffi",
     "example_backend": "apps/example-backend"
   }
 }
