@@ -8,7 +8,10 @@
     "test": "nx test"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nrwl/devkit": "^15.2.1",
+    "@nxrs/cargo": "^0.3.3"
+  },
   "devDependencies": {
     "@nrwl/cli": "14.7.17",
     "@nrwl/nx-cloud": "latest",
