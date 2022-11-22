@@ -1,9 +1,19 @@
+use typeshare::typeshare;
+
 #[typeshare]
-struct PlayerStruct {
+struct Player {
     name: String,
     score: u32,
 }
 
 fn main() {
-    println!("Hello, world!");
+    let player1 = Player {
+        name: String::from("Player 1"),
+        score: 42,
+    };
+
+    println!(
+        "Player 1 name is {} and score is {}",
+        player1.name, player1.score
+    );
 }
