@@ -65,6 +65,8 @@ build_backend:
     @npx nx build example_backend
 serve-backend:
     @just serve example_backend
+generate-types-ts:
+    @typeshare-cli -l typescript -o ./libs/backend-ffi/backend-ffi/src/lib/backend-ffi-backend-ffi.types.ts apps/example-backend
 
 
 
